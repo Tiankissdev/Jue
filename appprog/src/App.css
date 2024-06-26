@@ -1,0 +1,67 @@
+/* Tareas.css */
+
+.tareas-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-cards {
+  margin-top: 20px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilos específicos para las tarjetas de tarea */
+.accordion .accordion-item {
+  border: none;
+  background-color: transparent;
+}
+
+.accordion .accordion-header {
+  padding: 4px 8px; /* Ajusta según sea necesario */
+  font-size: 16px; /* Ajusta según sea necesario */
+}
+
+.accordion .accordion-body {
+  padding: 8px; /* Ajusta según sea necesario */
+  font-size: 14px; /* Ajusta según sea necesario */
+  background-color: #f8f9fa; /* Ajusta según sea necesario */
+  border-top: 1px solid #dee2e6; /* Ajusta según sea necesario */
+}
+
+.task-card {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px; /* Reduce el padding para hacerla más fina */
+  margin-bottom: 10px; /* Reduce el margin entre tarjetas */
+}
+
+.title {
+  text-align: right;
+  width: 100%;
+  color: #333;
+  margin-bottom: 10px; /* Ajusta el espacio debajo del título */
+}
